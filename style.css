@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url(bg1.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    /* border: 2px solid white; */
+    color: white;
+}
+.container h1{
+    font-size: 3rem;
+    border-bottom: 7px solid purple;
+    margin-bottom: 20px;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    padding: 5px;
+    border-bottom: 5px solid purple;
+    margin-bottom: 15px;
+}
+.box i{
+    padding-right: 12px;
+    margin-top: 3%;
+}
+.box input{
+    border: none;
+    background: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    color: white;
+}
+.container #btn{
+    border-radius: 20px;
+    width: 120px;
+    padding: 10px;
+    cursor: pointer;
+    border: 3px solid purple;
+    background: none;
+    color: white;
+    outline: none;
+}
+.container #btn:hover{
+    background: white;
+    color: black;
+}
+.box #check{
+    position: absolute;
+    top: 166px;
+    left: 145px;
+}
